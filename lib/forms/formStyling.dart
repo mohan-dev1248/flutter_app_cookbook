@@ -40,6 +40,7 @@ class _MyCustomForm extends State<MyCustomForm> {
                   border: OutlineInputBorder(),
                   hintText: 'Enter a search term'
                 ),
+                autofocus: true,
               ),
             ),
             Padding(
