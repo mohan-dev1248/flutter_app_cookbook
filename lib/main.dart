@@ -6,6 +6,7 @@ import 'package:flutter_app_cookbook/forms/onTextChange.dart';
 import 'package:flutter_app_cookbook/forms/requestingFocusDynamically.dart';
 import 'package:flutter_app_cookbook/gestures/onTap.dart';
 import 'package:flutter_app_cookbook/gestures/ripple.dart';
+import 'package:flutter_app_cookbook/gestures/swipeToDismiss.dart';
 import 'package:flutter_app_cookbook/hello_world/FirstMaterialApp.dart';
 import 'package:flutter_app_cookbook/hello_world/helloWorld.dart';
 import 'package:flutter_app_cookbook/layouts/tutorial.dart';
@@ -18,6 +19,6 @@ import 'state/StateWithParent.dart';
 //Whatever your widget you want to test it, put it inside the runApp try it
 void main() {
   runApp(
-    OnTapDemo()
+    DismissibleList()
   );
 }
