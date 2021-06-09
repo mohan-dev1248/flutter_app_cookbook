@@ -19,6 +19,9 @@ import 'package:flutter_app_cookbook/lists/GridSample.dart';
 import 'package:flutter_app_cookbook/lists/HorizontalList.dart';
 import 'package:flutter_app_cookbook/lists/ListViewSample.dart';
 import 'package:flutter_app_cookbook/lists/LongListExample.dart';
+import 'package:flutter_app_cookbook/navigation/NavigationBasics.dart';
+import 'package:flutter_app_cookbook/navigation/animate_widget_across_screens.dart';
+import 'package:flutter_app_cookbook/navigation/named_routes.dart';
 import 'package:flutter_app_cookbook/state/StateWithinWidget.dart';
 import 'package:flutter_app_cookbook/state/mix.dart';
 
@@ -29,6 +32,6 @@ import 'state/StateWithParent.dart';
 //Whatever your widget you want to test it, put it inside the runApp try it
 void main() {
   runApp(
-    CustomScrollViewDemo3()
+    AnimateWidget()
   );
 }
