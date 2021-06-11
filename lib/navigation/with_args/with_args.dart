@@ -86,7 +86,7 @@ class RoutesWithArgs extends StatelessWidget {
       routes: {
         ExtractArgumentsScreen.routeName: (context) => ExtractArgumentsScreen()
       },
-      onGenerateRoute: (settings) {Navigate to a named that accepts arguments
+      onGenerateRoute: (settings) {
         if(settings.name == PassArgumentsScreen.routeName){
           final args = settings.arguments as ScreenArguments;
 
